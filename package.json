@@ -18,7 +18,7 @@
     "lint:md": "remark . -o -f",
     "lint:styles": "prettier --write 'src/**/*.{scss,css}' && stylelint 'src/**/*.{scss,css}' --fix",
     "lint:tests": "eslint --fix tests/",
-    "start": "npm install && npm run update:mainlists && npm run dev",
+    "start": "npm install && npm run dev",
     "test:unit": "vue-cli-service test:unit",
     "update:packages": "node package-test.js",
     "update:lists": "node fetchLists/index.js",
